@@ -1,0 +1,78 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>jest-stare!</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results" style=" display: flex; flex-direction: column; width: 80%; padding: 25px 0px; margin: auto; font-family: roboto;  margin-top:60px;">{
+  &quot;numFailedTestSuites&quot;: 1,
+  &quot;numFailedTests&quot;: 0,
+  &quot;numPassedTestSuites&quot;: 0,
+  &quot;numPassedTests&quot;: 0,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 1,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 1,
+  &quot;numTotalTests&quot;: 0,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1619412596002,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;failureMessage&quot;: &quot;  ● Test suite failed to run\n\n    Jest encountered an unexpected token\n\n    This usually means that you are trying to import a file which Jest cannot parse, e.g. it&#x27;s not plain JavaScript.\n\n    By default, if Jest sees a Babel config, it will use that to transform your files, ignoring \&quot;node_modules\&quot;.\n\n    Here&#x27;s what you can do:\n     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/en/ecmascript-modules for how to enable it.\n     • To have some of your \&quot;node_modules\&quot; files transformed, you can specify a custom \&quot;transformIgnorePatterns\&quot; in your config.\n     • If you need a custom transformation specify a \&quot;transform\&quot; option in your config.\n     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the \&quot;moduleNameMapper\&quot; config option.\n\n    You&#x27;ll find more details and examples of these config options in the docs:\n    https://jestjs.io/docs/en/configuration.html\n\n    Details:\n\n    SyntaxError: /home/workspace/.tmp/fd57e51b-6eef-48fe-ae8d-561e2d4f3165/src/components/Stopwatch/index.js: Unexpected token (53:8)\n\n      51 |         const time = `${this.renderMinutes()}:${this.renderSeconds()}`\n      52 |     }return(\n    &gt; 53 |         &lt;div className=\&quot;app-container\&quot;&gt;\n         |         ^\n      54 |         &lt;div className=\&quot;stopwatch-container\&quot;&gt;\n      55 |             &lt;h1 className=\&quot;heading\&quot;&gt;Stopwatch&lt;/h1&gt;\n      56 |             &lt;div className=\&quot;container\&quot;&gt;\n\n      at Object._raise (node_modules/@babel/parser/src/parser/error.js:97:45)\n      at Object.raiseWithData (node_modules/@babel/parser/src/parser/error.js:92:17)\n      at Object.raise (node_modules/@babel/parser/src/parser/error.js:41:17)\n      at Object.unexpected (node_modules/@babel/parser/src/parser/util.js:161:16)\n      at Object.parseIdentifierName (node_modules/@babel/parser/src/parser/expression.js:2322:18)\n      at Object.parseIdentifier (node_modules/@babel/parser/src/parser/expression.js:2288:23)\n      at Object.parseBindingAtom (node_modules/@babel/parser/src/parser/lval.js:299:17)\n      at Object.parseBindingAtom (node_modules/@babel/parser/src/plugins/flow/index.js:2730:24)\n      at Object.parseMaybeDefault (node_modules/@babel/parser/src/parser/lval.js:370:25)\n      at Object.parseMaybeDefault (node_modules/@babel/parser/src/plugins/flow/index.js:2564:26)\n&quot;,
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 0,
+      &quot;numPassingTests&quot;: 0,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 0,
+        &quot;runtime&quot;: 0,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 0
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0
+      },
+      &quot;testExecError&quot;: {
+        &quot;loc&quot;: {
+          &quot;line&quot;: 53,
+          &quot;column&quot;: 8
+        },
+        &quot;pos&quot;: 1009,
+        &quot;code&quot;: &quot;BABEL_PARSE_ERROR&quot;
+      },
+      &quot;testFilePath&quot;: &quot;/home/workspace/.tmp/fd57e51b-6eef-48fe-ae8d-561e2d4f3165/src/__tests__/App.js&quot;,
+      &quot;testResults&quot;: []
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>
